@@ -374,7 +374,6 @@ body {
     height: 40px;
     width: auto;
     margin-bottom: 1rem;
-    filter: brightness(0) invert(1);
 }
 
 .social-links {
