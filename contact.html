@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - EdgesOf Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">
+                    <img src="https://nyc3.digitaloceanspaces.com/bhindi-drive/files/cab453ed-7d3e-4dfa-9012-038dbc50c1c5/2025-12-17T20-50-25-172Z-77f8c763-chat-image-1766004625153-0.jpg" alt="EdgesOf" class="logo-img">
+                </a>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span><span></span><span></span>
+                </button>
+                <div class="nav-links" id="navLinks">
+                    <a href="solutions.html">Solutions</a>
+                    <a href="industries.html">Industries</a>
+                    <a href="approach.html">Our Approach</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html" class="btn-primary">Start a Pilot</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero-title">Let's Discuss Your AI Use Case</h1>
+            <p class="hero-subtitle">Start with a conversation. No pressure, no sales pitch—just an honest discussion about whether AI can help your organization.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p style="color: var(--gray-600); margin-bottom: 2rem;">We typically respond within 24 hours. For urgent inquiries, please call us directly.</p>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:contact@edgesof.com">contact@edgesof.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:+91">+91 XXX XXX XXXX</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>India</p>
+                        </div>
+                    </div>
+
+                    <div class="card" style="margin-top: 2rem; background: rgba(20, 184, 166, 0.05); border-color: rgba(20, 184, 166, 0.2);">
+                        <h4 style="margin-bottom: 1rem;">What to Expect</h4>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="padding: 0.5rem 0;">✅ Initial consultation (30 min)</li>
+                            <li style="padding: 0.5rem 0;">✅ Use case assessment</li>
+                            <li style="padding: 0.5rem 0;">✅ Pilot proposal (if suitable)</li>
+                            <li style="padding: 0.5rem 0;">✅ No obligation to proceed</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div id="successMessage" style="display: none; text-align: center; padding: 3rem;">
+                        <div style="font-size: 4rem; margin-bottom: 1rem;">✅</div>
+                        <h3>Thank You!</h3>
+                        <p>We've received your message and will get back to you within 24 hours.</p>
+                    </div>
+
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Your Name *</label>
+                                <input type="text" name="name" required placeholder="John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label>Email Address *</label>
+                                <input type="email" name="email" required placeholder="john@company.com">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Organization *</label>
+                                <input type="text" name="organization" required placeholder="Company Name">
+                            </div>
+                            <div class="form-group">
+                                <label>Phone Number</label>
+                                <input type="tel" name="phone" placeholder="+91 XXX XXX XXXX">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Primary Interest *</label>
+                            <select name="useCase" required>
+                                <option value="">Select a use case</option>
+                                <option value="document-intelligence">AI Document Intelligence</option>
+                                <option value="knowledge-assistant">AI Knowledge Assistant</option>
+                                <option value="research-automation">Research & Reporting Automation</option>
+                                <option value="reporting-automation">Compliance & Reporting</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Tell Us About Your Challenge *</label>
+                            <textarea name="message" required rows="6" placeholder="Describe your current challenge, what you're trying to achieve, and how you think AI might help..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-primary btn-lg" style="width: 100%;">Send Message →</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <img src="https://nyc3.digitaloceanspaces.com/bhindi-drive/files/cab453ed-7d3e-4dfa-9012-038dbc50c1c5/2025-12-17T20-50-25-172Z-77f8c763-chat-image-1766004625153-0.jpg" alt="EdgesOf" class="footer-logo">
+                    <p>Practical Enterprise AI for Real-World Impact</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <a href="approach.html">Our Approach</a>
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 EdgesOf Solutions Pvt. Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<style>
+.contact-grid { display: grid; grid-template-columns: 1fr 2fr; gap: 3rem; }
+.contact-info h2 { margin-bottom: 1rem; }
+.contact-item { display: flex; gap: 1rem; margin-bottom: 1.5rem; align-items: flex-start; }
+.contact-icon { font-size: 2rem; background: rgba(20, 184, 166, 0.1); padding: 0.75rem; border-radius: 0.5rem; }
+.contact-item h4 { font-size: 0.875rem; font-weight: 600; margin-bottom: 0.25rem; }
+.contact-item a { color: var(--primary); text-decoration: none; }
+.contact-item a:hover { text-decoration: underline; }
+.contact-item p { color: var(--gray-600); margin: 0; }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+.form-group { margin-bottom: 1.5rem; }
+.form-group label { display: block; font-weight: 600; margin-bottom: 0.5rem; font-size: 0.875rem; }
+.form-group input, .form-group select, .form-group textarea { width: 100%; padding: 0.875rem 1rem; border: 1px solid var(--gray-300); border-radius: 0.5rem; font-size: 1rem; font-family: inherit; transition: all 0.3s; }
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(20, 184, 166, 0.1); }
+.form-group textarea { resize: vertical; }
+@media (max-width: 768px) { .contact-grid { grid-template-columns: 1fr; } .form-row { grid-template-columns: 1fr; } }
+</style>
