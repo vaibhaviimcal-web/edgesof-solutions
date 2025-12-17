@@ -1,8 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
   images: {
-    domains: ['nyc3.digitaloceanspaces.com'],
+    unoptimized: true,
   },
+  basePath: '/edgesof-solutions',
+  assetPrefix: '/edgesof-solutions/',
 }
 
 module.exports = nextConfig
